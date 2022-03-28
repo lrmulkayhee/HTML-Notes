@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+## HTML Notes
 
-You can use the [editor on GitHub](https://github.com/lrmulkayhee/Coding-Notes/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+A compiled list of information regarding HTML
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### HTML Elements
 
-### Markdown
+- HTML helps you render content and build pages
+- the main format of HTML is **elements**
+  elements
+  : the building blocks of html. includes a `start tag`, some content, and an `end tag`
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+ex.
 
-```markdown
-Syntax highlighted code block
+```
+    <h1> insert heading here </h1>
+```
 
-# Header 1
-## Header 2
-### Header 3
+## types of tags
 
-- Bulleted
-- List
+heading tag
+: used for titles and headings of various portions of your page. each heading `<h1>` through `<h6>` is of a different size. content is surrounded by `<hX>` and `</hX>` where X is a number.
 
-1. Numbered
-2. List
+paragraph tag
+: used for the body or main informational portion of your page. content is surrounded by `<p>` and `</p>`.
+
+strong tag
+: used to make portions of your page bold text. content is surrounded by `<strong>` and `</strong>`.
+
+italics tag
+: used to make portions of your page italic text. content is surrounded by `<em>` and `</em>`.
+
+break tag
+: used to insert a break in your page. This type of tag **DOES NOT** need a closing tag. often seen as `<br />`.
+
+horizon tag
+: used to insert a horizontal line in your page. This type of tag **DOES NOT** need a closing tag. often seen as `<hr />`.
+
+list tag
+: used to create a list in conjunction with `<ul>` and `</ul>` for an unnumbered list and `<ol>` and `</ol>` for a numbered list. each bullet/ number point is surrounded by `<li>` and `</li>` respectively.
+
+### HTML Attributes
 
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
+
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lrmulkayhee/Coding-Notes/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+```
