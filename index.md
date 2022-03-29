@@ -4,10 +4,8 @@ A compiled list of information regarding HTML
 
 ### HTML Elements
 
-- HTML helps you render content and build pages
-- the main format of HTML is **elements**
-  elements
-  : the building blocks of html. includes a `start tag`, some content, and an `end tag`
+elements
+: the building blocks of html. includes a `start tag`, some content, and an `end tag`
 
 ex.
 
@@ -84,9 +82,71 @@ or
 
 ### HTML Attributes
 
-**Bold** and _Italic_ and `Code` text
+attributes
+: a piece of language used to adjust the behavior or display of an element. attributes can change an elements size, shape, color, and functionality.
 
-[Link](url) and ![Image](src)
+## types of attributes
+
+link tag
+: used to insert a link in your page. content is surrounded by `<a href= insert a url here>` and `</a>`. can include `target="_blank"` to link tag to open link in an empty window.
+
+```html
+<a href="https://github.com" target="_blank"> Github </a>
+```
+
+image tag
+: used to insert an image in your page. content is denoted by `<img src= insert a url here>`. There is no end tag. can include alternative text in image tag for acessibility.
+
+```html
+<img src="https://miro.medium.com/max/1254.png" alt="women coding" />
+```
+
+### HTML documents
+
+- a html document is denoted by `.html` after the file name
+
+## portions of a document
+
+head
+: the head of a document contains all of the meta tags for the document, the title of the webpage, as well as the style tag. contained between `<head>` and `</head>`.
+
+body
+: the body of teh document is the actual written portion of the document. this includes the headers, paragraphs and images of the webpage as well as and behavioral modifiers like javascript. contained between `<body>` and `</body>`.
+
+### HTML classes
+
+classes
+: classes are groupings for tags and are used to add attributes to a tag (ex. <li)>)
+
+```html
+<ul>
+  <li class="greeting">hello</li>
+  <li class="planet">world</li>
+</ul>
+```
+
+### HTML containers
+
+- containers are used to simplify rules and make the code cleaner
+
+division tag
+: can only be used for block elements (ex. paragraphs, headings, images, and links). gives classes to text without adding default styling options. contained between `<div>` and `</div>`. very important in CSS styling.
+
+```html
+<div id="paragraphs">
+  <p>first paragraph</p>
+  <p>second paragraph</p>
+</div>
+```
+
+span
+: can only be used for inline elements (ex. smaller portions of text). gives classes to text without adding default styling options. contained between `<span>` and `</span>`. very important in CSS styling.
+
+```html
+<span id="hello">
+  <p>hello</p>
+</span>
+```
 
 ```
 
