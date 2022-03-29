@@ -1,7 +1,3 @@
-## HTML Notes
-
-A compiled list of information regarding HTML
-
 ### HTML Elements
 
 elements
