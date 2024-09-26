@@ -1,13 +1,60 @@
 # Assembly Language Tutorials
 
-## Introduction to Assembly Language
+1. **Data Movement Instructions**
+    - Learn how to move data between registers and memory.
 
-Learn the basics of assembly language, including registers, memory addressing, and basic instructions.
+2. **Arithmetic Operations**
+    - Perform basic arithmetic operations like addition, subtraction, multiplication, and division.
 
-## Writing Your First Program
+3. **Logical Instructions**
+    - Explore logical operations such as AND, OR, XOR, and NOT.
 
-Step-by-step guide to writing and running your first assembly program.
+4. **Control Flow**
+    - Understand how to use jump instructions and loops to control the flow of your program.
 
-## Advanced Topics
+5. **Subroutines and Functions**
+    - Learn how to create and call subroutines and functions in assembly.
 
-Explore advanced topics such as macros, conditional assembly, and interfacing with high-level languages.
+6. **Stack Operations**
+    - Understand stack operations including push, pop, and stack frames.
+
+7. **Interrupts and System Calls**
+    - Learn how to use interrupts and make system calls in assembly language.
+
+8. **String Operations**
+    - Manipulate strings and perform operations like concatenation and comparison.
+
+9. **Interfacing with C**
+     - Learn how to interface assembly code with C programs for more complex applications.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
