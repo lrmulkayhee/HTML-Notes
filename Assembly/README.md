@@ -2,44 +2,44 @@
 
 This directory contains beginner notes for Assembly language.
 
-## Contents
+## How to Use This Folder
+
+This folder is organized to help you get started with Assembly language programming. Follow the sections below to make the most out of the resources provided.
+
+### Contents
 
 - [Introduction](#introduction)
+- [Basic](#basic)
+- [Advanced](#advanced)
+- [Resources](#resources)
 - [Setup](#setup)
-- [Basic Syntax](#basic-syntax)
 - [Projects](#projects)
 - [Tutorials](#tutorials)
-- [Resources](#resources)
 
-## Introduction
+### Introduction
 
-Assembly language is a low-level programming language that is specific to a computer architecture. It is used to write programs that are closely related to the machine code instructions executed by the CPU.
+Start with the [Introduction](#introduction) section to understand what Assembly language is and why it is important. This section provides a brief overview of Assembly language and its relevance to computer architecture.
 
-## Setup
+### Basic
 
-1. **Install an Assembler**: You need an assembler to convert assembly code into machine code. Popular assemblers include NASM (Netwide Assembler) and MASM (Microsoft Macro Assembler).
-2. **Set Up Your Environment**: Configure your development environment to use the assembler. This may involve setting up paths and environment variables.
+Learn the basic syntax of Assembly language in the [Basic](#basic) section. This section includes examples and explanations to help you understand how to write Assembly code.
 
-## Basic Syntax
+### Advanced
 
-Assembly language syntax varies between different assemblers and architectures. Here is a basic example for x86 architecture using NASM:
+The [Advanced](#advanced) section covers more complex topics in Assembly language programming. This section is designed for those who have a good grasp of the basics and want to delve deeper into the language.
 
-```assembly
-section .data
-    msg db 'Hello, World!', 0
+### Resources
 
-section .text
-    global _start
+The [Resources](#resources) section lists additional materials such as books, websites, and tools that can help you further your study of Assembly language.
 
-_start:
-    ; Write the message to stdout
-    mov eax, 4
-    mov ebx, 1
-    mov ecx, msg
-    mov edx, 13
-    int 0x80
+### Setup
 
-    ; Exit the program
-    mov eax, 1
-    xor ebx, ebx
-    int 0x80
+Follow the steps in the [Setup](#setup) section to get your development environment ready. This includes installing an assembler and configuring your environment.
+
+### Projects
+
+Check out the [Projects](#projects) section for hands-on projects that you can work on to practice your Assembly programming skills. These projects range from simple to complex and are designed to reinforce your learning.
+
+### Tutorials
+
+The [Tutorials](#tutorials) section contains links to tutorials that provide step-by-step instructions on various Assembly language topics. These tutorials are great for deepening your understanding and expanding your knowledge.
