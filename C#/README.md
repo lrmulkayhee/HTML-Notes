@@ -8,13 +8,13 @@ This folder is organized to help you get started with C# programming. Follow the
 
 ### Contents
 
-- [Introduction](#introduction)
-- [Basic](#basic)
-- [Advanced](#advanced)
-- [Resources](#resources)
-- [Setup](#setup)
-- [Projects](#projects)
-- [Tutorials](#tutorials)
+- [Introduction](Introduction.md)
+- [Basic](Basic.md)
+- [Advanced](Advanced.md)
+- [Resources](Resources.md)
+- [Setup](Setup.md)
+- [Projects](Projects.md)
+- [Tutorials](Tutorials.md)
 
 ### Introduction
 
