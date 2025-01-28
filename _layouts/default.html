@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/static-css/styles.css' | relative_url }}">
 </head>
 <body>
     <header>
@@ -17,6 +17,6 @@
     <footer>
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
     </footer>
-    <script src="{{ '/js/scripts.js' | relative_url }}"></script>
+    <script src="{{ '/static-js/scripts.js' | relative_url }}"></script>
 </body>
 </html>
