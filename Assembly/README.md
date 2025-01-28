@@ -1,6 +1,3 @@
----
-layout: markdown
----
 # Assembly Language Notes
 
 This directory contains beginner notes for Assembly language.
