@@ -1,7 +1,3 @@
----
-layout: default
-title: Assembly Language Notes
----
 # Assembly Language Notes
 
 This directory contains beginner notes for Assembly language.
