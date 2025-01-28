@@ -1,7 +1,7 @@
 title: "Coding Notes"
 description: "A collection of coding tutorials and resources"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://<username>.github.io/<repository-name>" # the base hostname & protocol for your site
+url: "https://lrmulkayhee.github.io/Coding-Notes" # the base hostname & protocol for your site
 theme: minima
 
 # Build settings
